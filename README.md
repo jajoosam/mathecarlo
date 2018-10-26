@@ -1,10 +1,8 @@
 # mathecarlo
 ## Bruteforcing to derive π
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nVnZBCvRoAo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+![](mc demo.gif)
 
-
-Using the Monte Carlo method to estimate Pi. 
 
 ### How?
 
