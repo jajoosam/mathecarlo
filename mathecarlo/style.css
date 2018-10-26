@@ -1,0 +1,56 @@
+
+h2{
+	color:#5e5e5e;
+}
+
+h1, h2, h3, h4{
+	text-align: center;
+}
+
+#percent , #pi{
+	color: #777777;
+}
+
+#canvas{
+	margin-top:10px;
+}
+
+.attr, .pie{
+	color: #DB7093;
+}
+
+.dec {
+	color: #B43757;
+}
+
+#exp {
+  display: block;
+  padding: 20px;
+	font-size: 1.5em
+}
+
+footer {
+	color: #404040	;
+	max-width:600px;
+	text-align: center;
+	margin:auto;
+}
+
+a {
+  text-decoration: none;
+  color: #338618; 
+}
+a:hover {
+  color: #5e5e5e;
+  border-bottom: 2px solid #4a4a4a; 
+}
+
+#made{
+	color: #707070;
+}
+
+#ins{
+	text-align: center;
+	/* margin: auto;
+	display:block; */
+}

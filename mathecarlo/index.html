@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Mathe Carlo</title>
+		<meta name="description" content="Bruteforcing to derive π">
+
+		<meta itemprop="name" content="Mathe Carlo">
+		<meta itemprop="description" content="Bruteforcing to derive π">
+		<meta itemprop="image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<meta property="og:url" content="http://mathecarlo.jajoosam.repl.co">
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Mathe Carlo">
+		<meta property="og:description" content="Bruteforcing to derive π">
+		<meta property="og:image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Mathe Carlo">
+		<meta name="twitter:description" content="Bruteforcing to derive π">
+		<meta name="twitter:image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<link rel="stylesheet" href="https://unpkg.com/picnic">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="favicon.png" type="image/png">
+
+  </head>
+  <body>
+		<div id="container">
+		<div class="flex one two-600">
+			<div id="canvas"></div>
+						<div id="info">
+				
+				<code>
+					Points In Circle: <span class="attr" id="inCircle">?</span>&nbsp;<br>
+					&nbsp;Total Points Plotted: <span class="attr" id="total">?</span>
+					<br>
+					&nbsp;<span class="attr" >Tap</span> or hit <span class="attr">Space</span> to add a point
+				</code>
+				
+				<h3>The circle's area is<br>
+				<code id="percent"><em>?</em></code>
+				<br>
+				of the square.
+				</h3>
+				<br>
+				<code id="exp">
+					<span class="dec">?</span> · (2r)² = <span class="pie">π</span> · r²
+					<hr>
+				<span class="dec">?</span> · 2² · r² = <span class="pie">π</span> · r²
+				<hr>
+					<span class="pie">π</span> = <span class="dec">?</span> · 4 
+
+
+				</code>
+				<br>
+				
+				<h1>π = <code id="pi"><em>?</em></code></h1>
+				<br>
+				<footer>
+					An interactive demo of the Monte Carlo Integration - to derive <span class="pie">π</span> in a brute force sort of way.
+
+					Look at <a href="https://www.youtube.com/watch?v=M34TO71SKGk">Physics Girl's amazing video</a> to learn more!
+					<br><br>
+					<span id="made">Made by <a href="https://twitter.com/jajoosam">@jajoosam</a><br><a href="results.html"><img src="https://icongr.am/material/chart-arc.svg?size=20&color=3d3d3d" title="Aggregated Results"></a><a href="results.html"><img src="https://icongr.am/material/github-circle.svg?size=20&color=3d3d3d" title="Github"></a>
+				</footer>
+			</div>
+		</div>
+		</div>
+    <script src="https://unpkg.com/konva@2.4.2/konva.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

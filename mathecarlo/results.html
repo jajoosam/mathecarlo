@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Mathe Carlo</title>
+		<meta name="description" content="Bruteforcing to derive π">
+
+		<meta itemprop="name" content="Mathe Carlo">
+		<meta itemprop="description" content="Bruteforcing to derive π">
+		<meta itemprop="image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<meta property="og:url" content="http://mathecarlo.jajoosam.repl.co">
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Mathe Carlo">
+		<meta property="og:description" content="Bruteforcing to derive π">
+		<meta property="og:image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Mathe Carlo">
+		<meta name="twitter:description" content="Bruteforcing to derive π">
+		<meta name="twitter:image" content="https://mathecarlo.jajoosam.repl.co/meta.png">
+
+		<link rel="stylesheet" href="https://unpkg.com/picnic">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="favicon.png" type="image/png">
+
+  </head>
+  <body>
+		<div id="container">
+		<div class="flex one">
+			<div id="info">
+				
+				<code>
+					Points In Circle: <span class="attr" id="inCircle">?</span>&nbsp;<br>
+					&nbsp;Total Points Plotted: <span class="attr" id="total">?</span>
+				</code>
+				<h2>Aggregated data 📊</h2>
+				<h3>The circle's area is<br>
+				<code id="percent"><em>?</em></code>
+				<br>
+				of the square.
+				</h3>
+				<br>
+				<code id="exp">
+					<span class="dec">?</span> · (2r)² = <span class="pie">π</span> · r²
+					<hr>
+				<span class="dec">?</span> · 2² · r² = <span class="pie">π</span> · r²
+				<hr>
+					<span class="pie">π</span> = <span class="dec">?</span> · 4 
+
+
+				</code>
+				<br>
+				
+				<h1>π = <code id="pi"><em>?</em></code></h1>
+				<br>
+				<footer>
+					<span class="pie">π</span> derived in a brute force sort of way.
+
+					Look at <a href="/">the demo </a> to learn more!
+					<br><br>
+					<span id="made">Made by <a href="https://twitter.com/jajoosam">@jajoosam</a> 👨‍💻 👨‍🔬
+				</footer>
+			</div>
+		</div>
+		</div>
+    <script src="result-script.js"></script>
+  </body>
+</html>
