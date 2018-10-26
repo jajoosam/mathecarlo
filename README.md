@@ -1,7 +1,7 @@
 # mathecarlo
 ## Bruteforcing to derive π
 
-![](mc demo.gif)
+![image](mc%20demo.gif)
 
 
 ### How?
